@@ -43,25 +43,3 @@ To update the static site:
 6. Commit and push
 
 The GitHub Actions workflow will automatically deploy the changes.
-
-## Site Features
-
-- ✅ Static HTML export from Next.js
-- ✅ All images and assets optimized
-- ✅ Custom fonts included
-- ✅ Event information (September 15-17, 2023)
-- ✅ "Event ended" message (registration removed)
-- ✅ About Us, FAQ, Sponsors sections
-- ✅ Social media links
-- ✅ Responsive design
-
-## Total Size
-
-~10 MB (well within GitHub Pages limits)
-
-**Optimized & Cleaned:**
-- ❌ Admin dashboard pages removed
-- ❌ Dashboard pages removed
-- ❌ Email templates removed
-- ❌ Unused Next.js/Vercel assets removed
-- ✅ Only landing page and required assets remain
