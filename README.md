@@ -20,14 +20,16 @@ Then visit http://localhost:3000 in your browser.
 
 ## File Structure
 
-- `index.html` - Main landing page
-- `_next/` - Next.js static assets (CSS, JS chunks)
-- `assets/` - Images and decorations
-- `fonts/` - Custom fonts
-- `images/` - Favicon and social images
+- `index.html` - Main landing page (75KB)
+- `404.html` - Custom 404 error page
+- `_next/static/` - Next.js static assets (CSS, JS chunks)
+- `assets/` - Images, decorations, and sponsor logos
+- `fonts/` - Custom pixel fonts
+- `images/` - Favicon and social media images
 - `.nojekyll` - Prevents GitHub Pages from using Jekyll
-- `CNAME` - Custom domain configuration
+- `CNAME` - Custom domain configuration (2023.shellhacks.net)
 - `.github/workflows/deploy.yml` - GitHub Actions deployment workflow
+- `README.md` - This file
 
 ## Updating the Site
 
@@ -55,4 +57,11 @@ The GitHub Actions workflow will automatically deploy the changes.
 
 ## Total Size
 
-~9.7 MB (well within GitHub Pages limits)
+~10 MB (well within GitHub Pages limits)
+
+**Optimized & Cleaned:**
+- ❌ Admin dashboard pages removed
+- ❌ Dashboard pages removed
+- ❌ Email templates removed
+- ❌ Unused Next.js/Vercel assets removed
+- ✅ Only landing page and required assets remain
